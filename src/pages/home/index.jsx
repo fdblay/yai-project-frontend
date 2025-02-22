@@ -14,7 +14,7 @@ const Home = () => {
       <Innovator />
       <Contact />
     </div>
-  )
+  );
 };
 
 export default Home;

@@ -1,5 +1,6 @@
-import React from 'react';
+// import React from 'react';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import './App.css';
 import RootLayout from './layouts/RootLayout';
 import Home from './pages/home';
 import About from './pages/home/sections/About';
@@ -7,9 +8,8 @@ import Products from './pages/home/sections/Products';
 import Innovator from './pages/home/sections/Innovator';
 import Contact from './pages/home/sections/Contact';
 import Hero from './pages/home/sections/Hero';
-import './App.css';
 
-const App = () => {
+function App() {
   const router = createBrowserRouter([
     {
       path: "/",
@@ -26,10 +26,10 @@ const App = () => {
   ]);
 
   return (
-    <div>
+    <>
       <RouterProvider router={router} />
-    </div>
-  )
-};
+    </>
+  );
+}
 
 export default App;
