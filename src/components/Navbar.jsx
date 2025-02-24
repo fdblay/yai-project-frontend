@@ -12,7 +12,7 @@ const Navbar = () => {
 
   return (
     <nav className='navbar'>
-      <div className='container'>
+      <div className='nav-container'>
         <div className='navbar-brand'>
           <Link to="/" id='logo'>Fatimush-Natural Spices</Link>
         </div>
