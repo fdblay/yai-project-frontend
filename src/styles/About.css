@@ -1,0 +1,72 @@
+.about-section {
+    margin: 2rem;
+}
+
+.overview {
+    text-align: center;
+    width: 100%;
+}
+.overview h1 {
+    padding-bottom: 1rem;
+  
+}
+.overview p {
+    font-size: larger;
+    line-height: 1.5rem;
+    
+}
+
+.story-values {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    /* gap: 2rem; */
+    margin-top: 3rem;
+}
+.story {
+    width: 40%;
+    border: 1px solid;
+    margin-left: 2.5rem;
+}
+.story h2 {
+    margin-bottom: 1rem;
+}
+.story p {
+    line-height: 1.5rem;
+    font-size: large;
+}
+
+.values {
+    width: 40%;
+    border: 1px dashed;
+    margin-right: 2.5rem;
+}
+.values h2 {
+    margin-bottom: 1rem
+}
+.values ul {
+    list-style: none;
+    font-size: large;
+    line-height: 1.5rem;
+}
+
+@media (max-width: 767px) {
+    .story-values {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .story {
+        margin: auto;
+        margin-bottom: 2rem;
+        width: 90%;
+        padding: 2%;
+    }
+
+    .values {
+        margin: auto;
+        width: 90%;
+        padding: 2%;
+    }
+}

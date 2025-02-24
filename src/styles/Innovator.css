@@ -1,0 +1,76 @@
+.innovator {
+    margin: 2rem;
+}
+.innovator h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.profile-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+img {
+    border: 1px solid palevioletred;
+    padding: 120px 50px;
+    border-radius: 100%;
+}
+
+.profile-vision {
+    width: 70%;
+    border: 1px solid;
+    padding: 1rem;
+}
+
+.profile {
+    width: 75%;
+    margin-bottom: 2rem;
+    line-height: 1.5rem;
+}
+.profile h2 {
+    margin-bottom: 0.2rem;
+}
+.profile p {
+    font-size: large;
+}
+
+.vision {
+    width: 75%;
+    line-height: 1.5rem;
+    
+}
+.vision h2 {
+    margin-bottom: 0.5rem;
+}
+.vision p {
+    font-size: large;
+}
+
+@media (min-width: 768px) {
+    .profile-container {
+        gap: 1rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .profile-container {
+        display: flex;
+        flex-direction: column;        
+    }
+
+    img {
+        margin-bottom: 1.5rem;
+    }
+
+    .profile-vision {
+        width: 100%;
+    }
+    .profile {
+        width: 90%;
+    }
+}
+
+
