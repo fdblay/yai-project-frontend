@@ -8,11 +8,11 @@ const Innovator = () => {
 
       <div className='profile-container'>
 
-        <img src="./" alt="Innovator's potrait image" />
+        <img src="src/assets/IMG-20250225-WA0004.jpg" alt="Innovator's potrait image" />
         <div className='profile-vision'>
           <div className='profile'>
-            <h2>Fatima Amadu</h2>
-            <p>Hi, I'm Fatima Amadu, the founder of <strong>Fatimush Natural Spices</strong>. My journey began with a deep love for nature, sustainability of resources and a passion for creating healthier, tastier meals. Inspired by the incredible potential of mushrooms, I set out to redefine natural spices.</p>
+            <h2>Fati Amadu</h2>
+            <p>Hi, I'm Fati Amadu, the founder of <strong>Fatimush Natural Spices</strong>. My journey began with a deep love for nature, sustainability of resources and a passion for creating healthier, tastier meals. Inspired by the incredible potential of mushrooms, I set out to redefine natural spices.</p>
           </div>
 
           <div className='vision'>

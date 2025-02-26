@@ -16,18 +16,32 @@
     height: 60px;
     background-color: gainsboro;
     position: relative;
+    
+    /* width: 100%; */
+    /* z-index: 1; */
 }
 .navbar-items ul{
     display: flex;
     justify-content: space-between;
     list-style: none;
+    font-family: "Noto Sans", serif;
+  font-optical-sizing: auto;
 }
 
 #item, #logo {
     text-decoration: none;
     color: black;
 }
-
+#logo img{
+    padding-bottom: 10px;
+    width: 99px;
+}
+#logo {
+    display: flex;
+    align-items: center;
+    font-family: "Madimi One", serif;
+    color: #574c4c;
+}
 .menu-icon {
     /* visibility: hidden; */
     display: none;

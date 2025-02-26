@@ -2,6 +2,7 @@ import React from 'react';
 import '../../../styles/Hero.css';
 
 const Hero = () => {
+
   return (
     <div className='hero'>
       <div className='hero-content'>
@@ -11,9 +12,11 @@ const Hero = () => {
         <h2 className='hero-subtitle'>
           we offer the best natural spices made from organic mushroms!
         </h2>
-        <button type='button' className='hero-button' onClick="location.href='#'">
-          Shop Now
-        </button>
+        <a href="https://paystack.shop/fam-online" target='_blank' >
+          <button type='button' className='hero-button' >
+            Shop Now
+          </button>
+        </a>
       </div>
 
     </div>

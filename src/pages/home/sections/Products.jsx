@@ -8,7 +8,7 @@ const Products = () => {
         <h2 className="section-title">Our Products</h2>
         <div className="product-grid">
           {[
-            { name: "Mushroom Spice Blend A", image: "product1.jpg", description: "A savory mix for hearty dishes." },
+            { name: "Mushroom Spice Blend A", image: "src/assets/IMG-20250225-WA0004.jpg", description: "A savory mix for hearty dishes." },
             { name: "Mushroom Spice Blend B", image: "product2.jpg", description: "Perfect for soups and stews." },
             { name: "Mushroom Spice Blend C", image: "product3.jpg", description: "Adds a bold flavor to grills." },
             { name: "Mushroom Spice Blend D", image: "product4.jpg", description: "A versatile blend for everyday use." },

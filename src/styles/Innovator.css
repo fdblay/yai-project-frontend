@@ -14,8 +14,9 @@
 }
 
 .innovator img {
-    border: 1px solid palevioletred;
-    padding: 120px 50px;
+    /* border: 1px solid palevioletred; */
+    /* padding: 120px 50px; */
+    width: 20%;
     border-radius: 100%;
 }
 
