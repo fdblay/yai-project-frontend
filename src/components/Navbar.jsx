@@ -15,7 +15,7 @@ const Navbar = () => {
       <div className='nav-container'>
         <div className='navbar-brand'>
           <Link to="/" id='logo'>
-          <img src="src/assets/logoNoBg2.png" alt="Fatimush Natural Spices Brand Logo" />
+          <img src="./src/assets/logoNoBg2.png" alt="Fatimush Natural Spices Brand Logo" />
           <p>Fatimush Natural Spice</p>
           </Link>
         </div>
