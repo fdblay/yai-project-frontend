@@ -12,7 +12,7 @@ const Hero = () => {
         <h2 className='hero-subtitle'>
           we offer the best natural spices made from organic mushroms!
         </h2>
-        <a href="https://paystack.shop/fam-online" target='_blank' >
+        <a href="https://paystack.shop/fatimush-natural-spice-shop" target='_blank' >
           <button type='button' className='hero-button' >
             Shop Now
           </button>

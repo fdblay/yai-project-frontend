@@ -19,7 +19,7 @@ const Innovator = () => {
     <div className='innovator-wrapper'>
       <div className='innovator-container'>
         <div className='innovator-intro' data-aos="fade-down">
-          <h1>Meet the Innovator</h1>
+          <h1>Meet the <span className='highlight-span'>Innovator</span></h1>
           <p>Discover the story and vision behind Fatimush Natural Spices, where passion meets innovation in creating sustainable, healthy spice blends.</p>
         </div>
 

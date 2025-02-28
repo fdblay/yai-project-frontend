@@ -1,6 +1,6 @@
 /* Modern Innovator Section Styling with Enhanced Animations */
 .innovator-wrapper {
-    background: linear-gradient(135deg, #f5f7fa 0%, #e4e8ec 100%);
+    background-color: #F7F5EB;
     min-height: 100vh;
     padding: 4rem 0;
 }
@@ -21,10 +21,14 @@
 .innovator-intro h1 {
     font-family: 'Madimi One', sans-serif;
     font-size: 3.5rem;
-    color: #2c3e50;
+    color: #4d4d4d;
     margin-bottom: 1.5rem;
     position: relative;
     letter-spacing: 1px;
+}
+
+.highlight-span {
+    color: rgb(249, 180, 6);
 }
 
 .innovator-intro h1::after {
@@ -35,7 +39,7 @@
     transform: translateX(-50%);
     width: 80px;
     height: 4px;
-    background: linear-gradient(90deg, #3498db, #2980b9);
+    background: linear-gradient(90deg, rgb(249, 180, 6), #efdcc2);
     border-radius: 2px;
 }
 
@@ -102,6 +106,7 @@
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(10px);
     transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    border: 1px solid rgba(68, 93, 72, 0.12);
 }
 
 .profile-card:hover, .vision-card:hover {
@@ -111,7 +116,7 @@
 
 .profile-card h3, .vision-card h3 {
     font-family: 'Montserrat', sans-serif;
-    color: #2c3e50;
+    color: #4d4d4d;
     font-size: 1.8rem;
     margin-bottom: 0.5rem;
     font-weight: 600;
@@ -119,7 +124,7 @@
 
 .profile-card .title {
     display: block;
-    color: #3498db;
+    color: rgb(249, 180, 6);
     font-family: 'Montserrat', sans-serif;
     font-size: 1.1rem;
     margin-bottom: 1rem;
@@ -147,23 +152,25 @@
     backdrop-filter: blur(10px);
     transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     text-align: center;
+    border: 1px solid rgba(68, 93, 72, 0.12);
 }
 
 .value-card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 15px 35px rgba(156, 102, 68, 0.15);
+    border-color: rgba(68, 93, 72, 0.25);
 }
 
 .icon-circle {
     width: 60px;
     height: 60px;
-    background: linear-gradient(135deg, #3498db, #2980b9);
+    background: linear-gradient(135deg, rgb(249, 180, 6), #efdcc2);
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 0 auto 1rem;
-    color: white;
+    color: #4d4d4d;
     font-size: 1.5rem;
     transition: transform 0.3s ease;
 }
@@ -174,7 +181,7 @@
 
 .value-card h4 {
     font-family: 'Montserrat', sans-serif;
-    color: #2c3e50;
+    color: #4d4d4d;
     font-size: 1.2rem;
     margin-bottom: 0.8rem;
     font-weight: 600;

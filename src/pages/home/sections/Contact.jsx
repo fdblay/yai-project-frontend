@@ -41,7 +41,7 @@ const Contact = () => {
     <div className='contact-wrapper'>
       <div className='contact-container'>
         <div className='contact-intro' data-aos="fade-down">
-          <h1>Contact Us</h1>
+          <h1><span className='highlight-span'>Contact</span> Us</h1>
           <p>Have questions or want to connect? We'd love to hear from you! Reach out to us using the form below or through our contact details.</p>
         </div>
 
