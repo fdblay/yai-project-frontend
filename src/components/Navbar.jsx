@@ -11,9 +11,10 @@ const Navbar = () => {
     setShowNavbar(!showNavbar);
   };
 
-  // Closes the menu when a nav item is clicked
+  // Closes the menu when a nav item is clicked and scrolls to top
   const handleNavLinkClick = () => {
     setShowNavbar(false);
+    window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
   const handleClickOutside = (event) => {
@@ -40,9 +41,9 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="nav-container">
         <div className="navbar-brand">
-          <Link to="/" id="logo">
+          <Link to="/" id="logo" onClick={handleNavLinkClick}>
             <img src="https://res.cloudinary.com/dbyeirmqw/image/upload/v1740730525/logoNoBg2_kv2qb8.png" alt="Fatimush Natural Spices Brand Logo" />
-            <p>Fatimush Natural Spice</p>
+            <p>Fatimush Natural Spices</p>
           </Link>
         </div>
         <div className="menu-icon" onClick={handleShowNavbar}>

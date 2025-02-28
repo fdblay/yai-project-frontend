@@ -5,33 +5,38 @@ import { FaXTwitter } from 'react-icons/fa6';
 import '../styles/Footer.css'
 
 const Footer = () => {
+  // Handle scroll to top when clicking links
+  const handleLinkClick = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
   return (
     <div className='footer'>
 
       <div className='footer-links'>
         <div className='brand-name'>
-          <Link to="/" id='logo'>Fatimush-Natural Spices</Link>
+          <Link to="/" id='logo' onClick={handleLinkClick}>Fatimush-Natural Spices</Link>
         </div>
         <div className='quick-links'>
           <h4>Quick Links</h4>
           <ul>
-            <li><NavLink to="/about">About</NavLink></li>
-            <li><NavLink to="/products">Products</NavLink></li>
-            <li><NavLink to="/innovator">Innovator</NavLink></li>
-            <li><NavLink to="/contact">Contact</NavLink></li>
+            <li><NavLink to="/about" onClick={handleLinkClick}>About</NavLink></li>
+            <li><NavLink to="/products" onClick={handleLinkClick}>Products</NavLink></li>
+            <li><NavLink to="/innovator" onClick={handleLinkClick}>Innovator</NavLink></li>
+            <li><NavLink to="/contact" onClick={handleLinkClick}>Contact</NavLink></li>
           </ul>
         </div>
         <div className='legal-link'>
           <h4>Legal</h4>
           <ul>
-            <li><a href="#">Privacy Policy</a></li>
-            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#" onClick={handleLinkClick}>Privacy Policy</a></li>
+            <li><a href="#" onClick={handleLinkClick}>Terms of Service</a></li>
           </ul>
         </div>
         <div className='shop-link'>
           <h4>Shop</h4>
           <ul>
-            <li><a href="#">Visit Our Shop</a></li>
+            <li><a href="#" onClick={handleLinkClick}>Visit Our Shop</a></li>
           </ul>
         </div>
       </div>
