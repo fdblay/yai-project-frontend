@@ -1,76 +1,265 @@
-.innovator {
-    margin: 2rem;
+/* Modern Innovator Section Styling with Enhanced Animations */
+.innovator-wrapper {
+    background: linear-gradient(135deg, #f5f7fa 0%, #e4e8ec 100%);
+    min-height: 100vh;
+    padding: 4rem 0;
 }
-.innovator h1 {
+
+.innovator-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.innovator-intro {
     text-align: center;
-    margin-bottom: 2rem;
+    margin-bottom: 4rem;
+    opacity: 0;
+    animation: fadeInUp 1s ease forwards;
 }
 
-.profile-container {
+.innovator-intro h1 {
+    font-family: 'Madimi One', sans-serif;
+    font-size: 3.5rem;
+    color: #2c3e50;
+    margin-bottom: 1.5rem;
+    position: relative;
+    letter-spacing: 1px;
+}
+
+.innovator-intro h1::after {
+    content: '';
+    position: absolute;
+    bottom: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 4px;
+    background: linear-gradient(90deg, #3498db, #2980b9);
+    border-radius: 2px;
+}
+
+.innovator-intro p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1rem;
+    color: #666;
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.8;
+}
+
+.innovator-content {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
+    gap: 3rem;
+    align-items: flex-start;
 }
 
-.innovator img {
-    /* border: 1px solid palevioletred; */
-    /* padding: 120px 50px; */
-    width: 20%;
-    border-radius: 100%;
+.innovator-image {
+    flex: 1;
+    opacity: 0;
+    animation: fadeInLeft 1s ease 0.3s forwards;
 }
 
-.profile-vision {
-    width: 70%;
-    border: 1px solid;
+.image-container {
+    background: rgba(255, 255, 255, 0.9);
     padding: 1rem;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    overflow: hidden;
 }
 
-.profile {
-    width: 75%;
-    margin-bottom: 2rem;
-    line-height: 1.5rem;
-}
-.profile h2 {
-    margin-bottom: 0.2rem;
-}
-.profile p {
-    font-size: large;
+.image-container:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
 }
 
-.vision {
-    width: 75%;
-    line-height: 1.5rem;
-    
+.innovator-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    transition: transform 0.5s ease;
 }
-.vision h2 {
+
+.innovator-image img:hover {
+    transform: scale(1.02);
+}
+
+.innovator-details {
+    flex: 1.5;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    opacity: 0;
+    animation: fadeInRight 1s ease 0.3s forwards;
+}
+
+.profile-card, .vision-card {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 2rem;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.profile-card:hover, .vision-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+}
+
+.profile-card h3, .vision-card h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #2c3e50;
+    font-size: 1.8rem;
     margin-bottom: 0.5rem;
-}
-.vision p {
-    font-size: large;
+    font-weight: 600;
 }
 
-@media (min-width: 768px) {
-    .profile-container {
-        gap: 1rem;
+.profile-card .title {
+    display: block;
+    color: #3498db;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+
+.profile-card p, .vision-card p {
+    font-family: 'Montserrat', sans-serif;
+    color: #666;
+    line-height: 1.8;
+    font-size: 1.1rem;
+}
+
+.values-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    margin: 1rem 0;
+}
+
+.value-card {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 1.5rem;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    text-align: center;
+}
+
+.value-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+}
+
+.icon-circle {
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(135deg, #3498db, #2980b9);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 1rem;
+    color: white;
+    font-size: 1.5rem;
+    transition: transform 0.3s ease;
+}
+
+.value-card:hover .icon-circle {
+    transform: rotateY(180deg);
+}
+
+.value-card h4 {
+    font-family: 'Montserrat', sans-serif;
+    color: #2c3e50;
+    font-size: 1.2rem;
+    margin-bottom: 0.8rem;
+    font-weight: 600;
+}
+
+.value-card p {
+    font-family: 'Montserrat', sans-serif;
+    color: #666;
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
+
+/* Enhanced Animations */
+@keyframes fadeInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
     }
 }
 
-@media (max-width: 767px) {
-    .profile-container {
-        display: flex;
-        flex-direction: column;        
+@keyframes fadeInRight {
+    from {
+        opacity: 0;
+        transform: translateX(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .innovator-content {
+        flex-direction: column;
     }
 
-    img {
-        margin-bottom: 1.5rem;
+    .innovator-image {
+        max-width: 500px;
+        margin: 0 auto;
     }
 
-    .profile-vision {
-        width: 100%;
+    .values-grid {
+        grid-template-columns: repeat(2, 1fr);
     }
-    .profile {
-        width: 90%;
+}
+
+@media (max-width: 768px) {
+    .innovator-wrapper {
+        padding: 2rem 0;
+    }
+    
+    .innovator-container {
+        padding: 0 1.5rem;
+    }
+    
+    .innovator-intro h1 {
+        font-size: 2.5rem;
+    }
+    
+    .innovator-intro p {
+        font-size: 1rem;
+    }
+
+    .values-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .profile-card, .vision-card, .value-card {
+        padding: 1.5rem;
     }
 }
 

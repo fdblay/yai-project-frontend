@@ -72,7 +72,7 @@
     background-color: #574c4c;
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
     .navbar-items ul li:not(:last-child) {
         margin-right: 30px;
     }
@@ -91,12 +91,13 @@
         padding-left: 10px;
         background-color: #fef7e5;
         width: 0px;
-        height: calc(100vh - 400px);
+        height: calc(100vh - 60px);
         transition: all 0.3s ease-in;
         overflow: hidden;
         z-index: 1;
-    }
 
+    }
+    
     .navbar-items.active {
         width: 270px;
     }
@@ -109,5 +110,48 @@
     .navbar-items ul li {
         margin-right: unset;
         margin-top: 22px;
+    }
+} */
+@media (max-width: 768px) {
+    .navbar-items ul li:not(:last-child) {
+        margin-right: 30px;
+    }
+}
+
+@media (max-width: 600px) {
+    .menu-icon {
+        display: block;
+        cursor: pointer;
+    }
+
+    .navbar-items {
+        position: absolute;
+        right: 0;
+        top: 60px;
+        padding: 0; /* Avoid unintended padding */
+        background-color: #fef7e5;
+        width: 0;
+        height: calc(100vh - 60px);
+        transition: width 0.3s ease-in; /* Limit animation to width */
+        overflow: hidden; /* Ensure hidden content doesn't show */
+        z-index: 1;
+    }
+
+    .navbar-items.active {
+        width: 270px;
+    }
+
+    .navbar-items ul {
+        display: flex;
+        flex-direction: column;
+        padding: 0; /* Avoid unintended padding */
+        margin: 0; /* Remove default margin */
+    }
+
+    .navbar-items ul li {
+        margin: 0; /* Reset margin */
+        padding: 22px 10px; /* Add space for clickable area */
+        text-align: left; /* Align text properly */
+        list-style: none; /* Ensure no list style appears */
     }
 }
