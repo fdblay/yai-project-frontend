@@ -175,6 +175,7 @@
 /* Media Queries */
 @media screen and (max-width: 768px) {
   .section-title {
+    margin-top: 1rem;
     font-size: 2.5rem;
   }
   
