@@ -119,12 +119,12 @@
 
 .buy-now-button {
   background-color: rgb(249, 180, 6);
-  color: #fff;
+  color: #4D4D4D;
   border: 2px solid transparent;
   padding: 0.8rem 1.5rem;
   font-family: "Montserrat", sans-serif;
   font-size: 1rem;
-  font-weight: 500;
+  font-weight: 600;
   cursor: pointer;
   border-radius: 50px;
   transition: all 0.3s ease;
