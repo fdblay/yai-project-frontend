@@ -74,21 +74,21 @@ const Contact = () => {
                 <FaEnvelope />
                 <div>
                   <strong>Email:</strong>
-                  <span>contact@mail.com</span>
+                  <span>fatimushnaturalspices@gmail.com</span>
                 </div>
               </li>
               <li>
                 <FaPhone />
                 <div>
                   <strong>Phone:</strong>
-                  <span>+233 00 000 0000</span>
+                  <span>+233 59 149 0144</span>
                 </div>
               </li>
               <li>
                 <FaMapMarkerAlt />
                 <div>
                   <strong>Address:</strong>
-                  <span>123 Mushroom Ln, Nature City, Gh</span>
+                  <span>Offinso, Ashanti-Region, Ghana</span>
                 </div>
               </li>
             </ul>

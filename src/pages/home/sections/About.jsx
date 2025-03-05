@@ -16,7 +16,7 @@ const About = () => {
           <h2>Our Story</h2>
           <p>
             Our journey began with a passion for natural ingredients and a dream to bring the richness of mushrooms to kitchens worldwide. <br></br>
-            From humble beginnings in <strong>Aboaso, Ashanti Region</strong>, we have grown into a trusted name for quality and innovation.
+            From humble beginnings in <strong>Offinso, Ashanti Region</strong>, we have grown into a trusted name for quality and innovation.
           </p>
         </div>
         <div className='values'>
