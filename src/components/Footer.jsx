@@ -36,7 +36,7 @@ const Footer = () => {
         <div className='shop-link'>
           <h4>Shop</h4>
           <ul>
-            <li><a href="#" onClick={handleLinkClick}>Visit Our Shop</a></li>
+            <li><a href="https://paystack.shop/fatimush-natural-spice-shop" onClick={handleLinkClick}>Visit Our Shop</a></li>
           </ul>
         </div>
       </div>
