@@ -26,7 +26,7 @@ const Innovator = () => {
         <div className='innovator-content'>
           <div className='innovator-image' data-aos="fade-right">
             <div className='image-container'>
-              <img src="https://res.cloudinary.com/dbyeirmqw/image/upload/v1741090847/DALL_E_2025-03-04_12.20.13_-_A_young_African_lady_with_a_bright_smile_sitting_in_a_natural_outdoor_setting_with_vibrant_green_foliage_in_the_background._She_has_a_modern_stylish_oeky16.webp" alt="Innovator's portrait image" />
+              <img src="https://res.cloudinary.com/dbyeirmqw/image/upload/v1741695122/Fati_Amadu_zp1une.png" alt="Innovator's portrait image" />
             </div>
           </div>
 
