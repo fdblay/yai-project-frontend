@@ -91,7 +91,8 @@ html {
 .navbar-items ul a {
     font-size: 1.1rem;
     font-weight: 500;
-    color: var(--text-dark);
+    /* color: var(--text-dark); */
+    color: #356215;
     text-decoration: none;
     transition: all 0.3s ease;
     padding: 0.5rem 0;

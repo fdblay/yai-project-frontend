@@ -1,6 +1,6 @@
 /* Modern Contact Section Styling with Enhanced Animations */
 .contact-wrapper {
-    background-color: #F7F5EB;
+    background-color: #ebe8da;
     min-height: 100vh;
     padding: 4rem 0;
 }
@@ -21,7 +21,7 @@
 .contact-intro h1 {
     font-family: 'Madimi One', sans-serif;
     font-size: 3.5rem;
-    color: #4d4d4d;
+    color: #356215;
     margin-bottom: 1.5rem;
     position: relative;
     letter-spacing: 1px;

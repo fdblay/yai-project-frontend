@@ -20,7 +20,8 @@
 .footer-links h4 {
     margin-bottom: 1.2rem;
     font-family: "Madimi One", serif;
-    color: var(--primary-color);
+    /* color: var(--primary-color); */
+    color: #356215;
     font-size: 1.3rem;
 }
 

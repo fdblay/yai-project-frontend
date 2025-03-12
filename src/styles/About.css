@@ -18,7 +18,8 @@
 .overview h1 {
     font-family: "Madimi One", sans-serif;
     font-size: 3.5rem;
-    color: var(--text-dark);
+    /* color: var(--text-dark); */
+    color: #356215;
     margin-bottom: 1.5rem;
     position: relative;
     letter-spacing: 1px;
@@ -73,7 +74,7 @@
 }
 
 .story {
-    background: linear-gradient(135deg, var(--text-dark), var(--primary-color));
+    background: linear-gradient(135deg, #356215, var(--primary-color));
     color: var(--bg-light);
 }
 
@@ -100,7 +101,8 @@
 }
 
 .values h2 {
-    color: var(--text-dark);
+    /* color: var(--text-dark); */
+    color: #356215;
 }
 
 .story h2::after, .values h2::after {
@@ -139,7 +141,8 @@
 #choose {
     font-family: "Madimi One", sans-serif;
     font-size: 2.5rem;
-    color: var(--text-dark);
+    /* color: var(--text-dark); */
+    color: #356215;
     text-align: center;
     margin: 4rem auto 2rem;
     position: relative;
@@ -175,7 +178,7 @@
 }
 
 .solution {
-    background: linear-gradient(135deg, var(--text-dark), var(--primary-color));
+    background: linear-gradient(135deg, #356215, var(--primary-color));
     color: var(--bg-light);
 }
 
@@ -194,7 +197,8 @@
 }
 
 .problem h2 {
-    color: var(--text-dark);
+    /* color: var(--text-dark); */
+    color: #356215;
 }
 
 .solution h2 {
