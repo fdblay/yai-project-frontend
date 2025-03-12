@@ -427,4 +427,16 @@ form button:hover svg {
     .socials, .address, .contact-form form {
         padding: 1.5rem;
     }
+
+    #email-address {
+        width: 70%;
+        overflow-wrap: break-word;
+    }
+
+    .address li {
+        margin-bottom: 1.5rem;
+        display: flex;
+        align-items: flex-start;
+        gap: 1rem;
+    }
 }

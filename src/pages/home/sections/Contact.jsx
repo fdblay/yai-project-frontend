@@ -72,7 +72,7 @@ const Contact = () => {
             <ul>
               <li>
                 <FaEnvelope />
-                <div>
+                <div id='email-address' >
                   <strong>Email:</strong>
                   <span>fatimushnaturalspices@gmail.com</span>
                 </div>
