@@ -45,10 +45,10 @@ const Footer = () => {
       <div className='socials-link'>
         <p id="p-link">
         {/* Follow us on: */}
-          <a href="https://www.instagram.com/fatmus_natural_spices?igsh=Y28yeHh1YmV3cTB2&utm_source=qr" target='_blank' id='a1'><FaInstagram /></a>
+          <a href="https://www.instagram.com/fatimush_natural_spices?igsh=Y28yeHh1YmV3cTB2&utm_source=qr" target='_blank' id='a1'><FaInstagram /></a>
           <a href="https://www.facebook.com/share/1Dd2zVMjJR/?mibextid=wwXIfr" target='_blank'><FaFacebook /></a>
           {/* <a href=""><FaXTwitter /></a> */}
-          <a href="https://www.tiktok.com/@fatmus.natural.sp?_t=ZM-8uBYCdXu0md&_r=1" target='_blank'><FaTiktok /></a>
+          <a href="https://www.tiktok.com/@fatimush.natural.spices?_t=ZM-8ucY43jL6kp&_r=1" target='_blank'><FaTiktok /></a>
         </p>
       </div>
       <p className="copyright">Copyright &copy; {new Date().getFullYear()} Fatimush Natural Spice. All Rights Reserved.</p>

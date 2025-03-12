@@ -50,7 +50,7 @@ const Contact = () => {
             <h3>Follow Us</h3>
             <ul>
               <li>
-                <a href="https://www.instagram.com/fatmus_natural_spices?igsh=Y28yeHh1YmV3cTB2&utm_source=qr" target='_blank' rel="noopener noreferrer">
+                <a href="https://www.instagram.com/fatimush_natural_spices?igsh=Y28yeHh1YmV3cTB2&utm_source=qr" target='_blank' rel="noopener noreferrer">
                   <FaInstagram /> <span>Instagram</span>
                 </a>
               </li>
@@ -60,7 +60,7 @@ const Contact = () => {
                 </a>
               </li>
               <li>
-                <a href="https://www.tiktok.com/@fatmus.natural.sp?_t=ZM-8uBYCdXu0md&_r=1" target='_blank' rel="noopener noreferrer">
+                <a href="https://www.tiktok.com/@fatimush.natural.spices?_t=ZM-8ucY43jL6kp&_r=1" target='_blank' rel="noopener noreferrer">
                   <FaTiktok /> <span>TikTok</span>
                 </a>
               </li>
