@@ -26,7 +26,7 @@ html {
 
 .navbar {
     height: 70px;
-    background-color: rgba(255, 255, 255, 0.97);
+    background-color: var(--bg-light);
     position: fixed;
     top: 0;
     left: 0;
@@ -50,8 +50,8 @@ html {
 }
 
 #logo img{
-    padding-bottom: 10px;
-    width: 85px;
+    padding-bottom: 6px;
+    width: 75px;
     transition: transform 0.3s ease;
 }
 
@@ -100,6 +100,7 @@ html {
 
 .navbar-items ul a:hover {
     color: var(--accent-color);
+    background-color: rgba(240, 147, 43, 0.1);
 }
 
 .navbar-items ul a::after {
@@ -129,7 +130,7 @@ html {
     left: 0;
     width: 100%;
     height: 2px;
-    background-color: var(--accent-color);
+    background: linear-gradient(90deg, var(--accent-color), var(--secondary-accent));
 }
 
 /* Add margin to the main content to prevent it from hiding behind the fixed navbar */
@@ -214,7 +215,7 @@ main {
     }
 
     #logo img {
-        width: 100px;
+        width: 70px;
     }
 
     #logo p {

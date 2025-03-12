@@ -1,6 +1,6 @@
 /* Modern About Section Styling with Enhanced Animations */
 .about-section {
-    background-color: #F7F5EB;
+    background-color: var(--bg-light);
     min-height: 100vh;
     padding: 4rem 0;
 }
@@ -18,14 +18,14 @@
 .overview h1 {
     font-family: "Madimi One", sans-serif;
     font-size: 3.5rem;
-    color: #4d4d4d;
+    color: var(--text-dark);
     margin-bottom: 1.5rem;
     position: relative;
     letter-spacing: 1px;
 }
 
 #about-span {
-    color: rgb(249, 180, 6);
+    color: var(--accent-color);
 }
 
 .overview h1::after {
@@ -36,14 +36,14 @@
     transform: translateX(-50%);
     width: 80px;
     height: 4px;
-    background: linear-gradient(90deg, rgb(249, 180, 6), #efdcc2);
+    background: linear-gradient(90deg, var(--accent-color), var(--primary-color));
     border-radius: 2px;
 }
 
 .overview p {
     font-family: "Montserrat", sans-serif;
     font-size: 1.1rem;
-    color: #666;
+    color: var(--text-light);
     max-width: 600px;
     margin: 0 auto;
     line-height: 1.8;
@@ -73,12 +73,12 @@
 }
 
 .story {
-    background: linear-gradient(135deg, #4d4d4d, #3a3a3a);
-    color: #f5eee5;
+    background: linear-gradient(135deg, var(--text-dark), var(--primary-color));
+    color: var(--bg-light);
 }
 
 .values {
-    background: linear-gradient(135deg, #efdcc2, #e5d2b8);
+    background: linear-gradient(135deg, var(--bg-light), #e5d2b8);
 }
 
 .story:hover, .values:hover {
@@ -96,11 +96,11 @@
 }
 
 .story h2 {
-    color: rgb(249, 180, 6);
+    color: var(--accent-color);
 }
 
 .values h2 {
-    color: #4d4d4d;
+    color: var(--text-dark);
 }
 
 .story h2::after, .values h2::after {
@@ -110,7 +110,7 @@
     left: 0;
     width: 40px;
     height: 3px;
-    background: linear-gradient(90deg, rgb(249, 180, 6), #efdcc2);
+    background: linear-gradient(90deg, var(--accent-color), var(--primary-color));
     border-radius: 2px;
 }
 
@@ -133,13 +133,13 @@
 }
 
 .values strong {
-    color: rgb(249, 180, 6);
+    color: var(--accent-color);
 }
 
 #choose {
     font-family: "Madimi One", sans-serif;
     font-size: 2.5rem;
-    color: #4d4d4d;
+    color: var(--text-dark);
     text-align: center;
     margin: 4rem auto 2rem;
     position: relative;
@@ -171,12 +171,12 @@
 }
 
 .problem {
-    background: linear-gradient(135deg, #efdcc2, #e5d2b8);
+    background: linear-gradient(135deg, var(--bg-light), #e5d2b8);
 }
 
 .solution {
-    background: linear-gradient(135deg, #4d4d4d, #3a3a3a);
-    color: #f5eee5;
+    background: linear-gradient(135deg, var(--text-dark), var(--primary-color));
+    color: var(--bg-light);
 }
 
 .problem:hover, .solution:hover {
@@ -194,11 +194,11 @@
 }
 
 .problem h2 {
-    color: #4d4d4d;
+    color: var(--text-dark);
 }
 
 .solution h2 {
-    color: rgb(249, 180, 6);
+    color: var(--accent-color);
 }
 
 .problem h2::after, .solution h2::after {
@@ -208,7 +208,7 @@
     left: 0;
     width: 40px;
     height: 3px;
-    background: linear-gradient(90deg, rgb(249, 180, 6), #efdcc2);
+    background: linear-gradient(90deg, var(--accent-color), var(--primary-color));
     border-radius: 2px;
 }
 
@@ -220,7 +220,7 @@
 
 .solution span {
     font-weight: bolder;
-    color: rgb(249, 180, 6);
+    color: var(--accent-color);
 }
 
 /* Enhanced Animations */

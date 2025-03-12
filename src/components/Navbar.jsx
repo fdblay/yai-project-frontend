@@ -42,8 +42,8 @@ const Navbar = () => {
       <div className="nav-container">
         <div className="navbar-brand">
           <Link to="/" id="logo" onClick={handleNavLinkClick}>
-            <img src="https://res.cloudinary.com/dbyeirmqw/image/upload/v1740730525/logoNoBg2_kv2qb8.png" alt="Fatimush Natural Spices Brand Logo" />
-            <p>Fatimush Natural Spices</p>
+            <img src="https://res.cloudinary.com/dbyeirmqw/image/upload/v1741761952/newLogoEdited_zel7rh.jpg" alt="Fatimush Natural Spices Brand Logo" />
+            {/* <p>Fatimush Natural Spices</p> */}
           </Link>
         </div>
         <div className="menu-icon" onClick={handleShowNavbar}>

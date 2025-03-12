@@ -113,7 +113,8 @@
   font-family: 'Montserrat', sans-serif;
   font-size: 1.2rem;
   font-weight: 600;
-  color: rgb(249, 180, 6);
+  /* color: rgb(249, 180, 6); */
+  color: #356215;
   margin: 0.5rem 0;
 }
 

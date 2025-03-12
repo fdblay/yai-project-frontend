@@ -15,7 +15,8 @@ const Footer = () => {
 
       <div className='footer-links'>
         <div className='brand-name'>
-          <Link to="/" id='logo' onClick={handleLinkClick}>Fatimush-Natural Spices</Link>
+          <Link to="/" id='logo' onClick={handleLinkClick}>
+          <img src="https://res.cloudinary.com/dbyeirmqw/image/upload/v1741761952/newLogoEdited_zel7rh.jpg" alt="" /></Link>
         </div>
         <div className='quick-links'>
           <h4>Quick Links</h4>
